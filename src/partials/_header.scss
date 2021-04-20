@@ -1,0 +1,48 @@
+.cont80 {
+  @include cont80;
+  @include clear;
+
+  .nav-bar {
+    height: 7vh;
+    line-height: 7vh;
+    border-bottom: 1px solid $mainColorText;
+  }
+}
+
+.flex {
+  @include flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  .logo {
+    width: 50%;
+    padding-top: 8px;
+  }
+
+  .list {
+    width: 50%;
+  }
+
+  ul {
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 10px;
+  }
+}
+
+.col_50 {
+  @include col_50;
+  margin: 20px 0;
+  background-color: green;
+
+  .btn {
+    @include btn-blue;
+  }
+
+  img {
+    width: 100%;
+  }
+}

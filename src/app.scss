@@ -1,0 +1,18 @@
+@import 'partials/variables.scss';
+@import 'partials/mixins';
+@import 'partials/header';
+@import 'partials/content';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  @include container;
+}

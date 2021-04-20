@@ -1,0 +1,41 @@
+h2 {
+  padding: 20px 0;
+  font-weight: 800;
+  font-size: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.bottom-page {
+  margin-top: 50px;
+}
+
+.col_33 {
+  margin: 40px 0;
+  @include col_33;
+  p {
+    margin-top: 30px;
+  }
+  .box-pic {
+    width: 100%;
+    height: 100px;
+    img {
+      width: 30%;
+    }
+    .little {
+      width: 20%;
+    }
+    .really-little {
+      width: 12%;
+    }
+  }
+}
+
+.rabbit {
+  margin-top: 80px;
+  width: 20%;
+}
+
+hr {
+  border-color: $mainColorText;
+  margin: 100px 0;
+}

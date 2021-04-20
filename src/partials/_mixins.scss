@@ -1,0 +1,43 @@
+@mixin clear {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@mixin container {
+  @include clear;
+  width: 100%;
+  height: 100%;
+  .lightbrown {
+    background-color: $lightBrown;
+    text-align: center;
+  }
+}
+
+@mixin cont80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin col_50{
+  width: 50%;
+  float: left;
+}
+
+@mixin col_33 {
+  display: inline-block;
+  width: 33%;
+  float: left;
+}
+
+@mixin btn-blue {
+  display: inline-block;
+  background-color: $btnColor;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
