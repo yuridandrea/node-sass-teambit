@@ -1,0 +1,18 @@
+footer {
+  .flex {
+    padding-top: 50px;
+    height: 40vh;
+    align-items: flex-start;
+    .box-footer {
+      width: 110%;
+    }
+    ul {
+      margin: 5px;
+      height: 100%;
+      li {
+        padding: 5px 0;
+      }
+    }
+    
+  }  
+}

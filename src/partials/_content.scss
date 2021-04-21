@@ -39,3 +39,49 @@ hr {
   border-color: $mainColorText;
   margin: 100px 0;
 }
+
+.box {
+  @include flex;
+  padding-top: 30px;
+  width: 80%;
+  .in-box{
+    width: 68%;
+  }
+  .text {
+    @include flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+      font-size: 25px;
+      font-weight: 900;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+// ho fatto questa ripetizioni perche 
+// non prendeva in considerazione una seconda classe
+
+.box- {
+  @include flex;
+  padding-top: 30px;
+  width: 80%;
+  float: right;
+  .in-box{
+    width: 68%;
+  }
+  .text {
+    @include flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+      font-size: 25px;
+      font-weight: 900;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

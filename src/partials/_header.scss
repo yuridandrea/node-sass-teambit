@@ -35,8 +35,8 @@
 
 .col_50 {
   @include col_50;
-  margin: 20px 0;
-  background-color: green;
+  margin: 50px 0;
+  max-height: 80vh;
 
   .btn {
     @include btn-blue;

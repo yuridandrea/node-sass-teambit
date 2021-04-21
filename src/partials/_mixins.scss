@@ -26,6 +26,12 @@
 @mixin col_50{
   width: 50%;
   float: left;
+  p {
+    font-size: 25px;
+    font-weight: 500;
+    width: 70%;
+    margin: 20px 0;
+  }
 }
 
 @mixin col_33 {

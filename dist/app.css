@@ -34,8 +34,14 @@
 .col_50 {
   width: 50%;
   float: left;
+  margin: 50px 0;
+  max-height: 80vh;
+}
+.col_50 p {
+  font-size: 25px;
+  font-weight: 500;
+  width: 70%;
   margin: 20px 0;
-  background-color: green;
 }
 .col_50 .btn {
   display: inline-block;
@@ -91,6 +97,65 @@ h2 {
 hr {
   border-color: #58402c;
   margin: 100px 0;
+}
+
+.box {
+  display: flex;
+  padding-top: 30px;
+  width: 80%;
+}
+.box .in-box {
+  width: 68%;
+}
+.box .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box .text h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.box .text p {
+  font-size: 20px;
+}
+
+.box- {
+  display: flex;
+  padding-top: 30px;
+  width: 80%;
+  float: right;
+}
+.box- .in-box {
+  width: 68%;
+}
+.box- .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box- .text h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.box- .text p {
+  font-size: 20px;
+}
+
+footer .flex {
+  padding-top: 50px;
+  height: 40vh;
+  align-items: flex-start;
+}
+footer .flex .box-footer {
+  width: 110%;
+}
+footer .flex ul {
+  margin: 5px;
+  height: 100%;
+}
+footer .flex ul li {
+  padding: 5px 0;
 }
 
 * {
